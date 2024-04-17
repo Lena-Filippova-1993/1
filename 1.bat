@@ -1,0 +1,1 @@
+C:\Board\Board\Lena\scripts\activate
