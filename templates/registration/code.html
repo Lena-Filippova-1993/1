@@ -1,7 +1,7 @@
 {% block content %}
 <form method="post">
     {% csrf_token %}
-    {{ form.as_p }}
-    <input type="submit" value="Add registration code">
+    <input type="text" name="code">
+    <button>Send</button>
 </form>
 {% endblock content%}
